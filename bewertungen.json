@@ -1,0 +1,21 @@
+{
+  "test": [
+    {
+      "by": "test@gmail.com",
+      "rating": 2,
+      "comment": "alles gut gelaufen"
+    }
+  ],
+  "user2": [
+    {
+      "by": "h3llr41za@gmail.com",
+      "rating": 4,
+      "comment": "schlechte kommunikation"
+    },
+    {
+      "by": "h3llraiza@gmail.com",
+      "rating": 1,
+      "comment": "Alles Bestens"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bewertungen</title></head>
+<body>
+<h2>Bewertungen für: {{ landlord }}</h2>
+<form method="get">
+  Suche nach Vermieter: <input name="landlord" type="text">
+  <button type="submit">Suchen</button>
+</form>
+{% for r in reviews %}
+  <p>Bewertung: {{ r.rating }} – {{ r.comment }} (von {{ r.by }})</p>
+{% else %}
+  <p>Keine Bewertungen gefunden.</p>
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Bewerten</title></head>
+<body>
+<h2>Verifizierte Bewertung abgeben</h2>
+<form method="POST" enctype="multipart/form-data">
+  E-Mail: <input name="email" type="email" required><br>
+  Nachweis (PDF/JPG): <input name="nachweis" type="file" required><br>
+  Vermieter: <input name="landlord" type="text" required><br>
+  Bewertung (1-5): <input name="rating" type="number" min="1" max="5" required><br>
+  Kommentar: <textarea name="comment"></textarea><br>
+  <button type="submit">Absenden</button>
+</form>
+</body>
+</html>
